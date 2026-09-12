@@ -35,6 +35,7 @@ export const quests: Quest[] = [
 
   {
     id: "system-design-rag",
+    repoUrl: "https://github.com/Shreyabhat11/rag-chatbot-navagurukul-submission",
     domain: "RAG · Developer Tools · Knowledge Systems",
     title: "System Design RAG Assistant",
     stack: [
@@ -64,6 +65,7 @@ export const quests: Quest[] = [
 
   {
     id: "ai-mom",
+    repoUrl: "https://github.com/Shreyabhat11/MOM_generator",
     domain: "Voice AI · NLP · Enterprise Productivity",
     title: "AI MOM - Meeting Minutes Generator",
     stack: [
@@ -117,6 +119,7 @@ export const quests: Quest[] = [
 
   {
     id: "asr-shootout",
+    repoUrl: "https://github.com/Shreyabhat11/automatic-speech-recognition",
     domain: "Speech AI · NLP · Production Evaluation",
     title: "ASR Shootout - Indian Conversational Speech",
     stack: [
@@ -200,6 +203,7 @@ export const quests: Quest[] = [
 
   {
     id: "synthetic-data",
+    repoUrl: "https://github.com/Shreyabhat11/Synthetic_data_generation",
     domain: "Generative AI · Synthetic Data · Privacy",
     title: "Synthetic Data Generation Platform",
     stack: [
@@ -257,6 +261,7 @@ export const quests: Quest[] = [
 
   {
     id: "ai-symptom-checker",
+    repoUrl: "https://github.com/Shreyabhat11/health_prediction_app",
     domain: "Healthcare AI · Clinical Decision Support",
     title: "AI Symptom Checker",
     stack: [
@@ -279,30 +284,8 @@ export const quests: Quest[] = [
   },
 
   {
-    id: "healthcare-risk",
-    domain: "Healthcare AI · Predictive Analytics",
-    title: "Healthcare Risk Prediction Application",
-    stack: [
-      "Python",
-      "Scikit-learn",
-      "Pandas",
-      "Machine Learning",
-      "Streamlit",
-    ],
-    problem:
-      "Healthcare datasets contain multiple patient and clinical indicators that can be difficult to interpret consistently for early risk assessment.",
-    solution: [
-      "Built a machine-learning prediction workflow from structured healthcare data.",
-      "Performed preprocessing and feature analysis before model training.",
-      "Compared model performance using classification metrics.",
-      "Presented predictions through an interactive application for easier interpretation.",
-    ],
-    outcome:
-      "Built an applied healthcare prediction system demonstrating the complete path from patient data to model-based risk assessment.",
-  },
-
-  {
     id: "health-insurance-fraud",
+    repoUrl: "https://github.com/Shreyabhat11/Healthcare-Fraud-Detection",
     domain: "Healthcare · Fraud Detection · ML",
     title: "Health Insurance Fraud Detection System",
     stack: [
@@ -326,6 +309,7 @@ export const quests: Quest[] = [
 
   {
     id: "structural-defect",
+    repoUrl: "https://github.com/Shreyabhat11/structural-defect",
     domain: "Computer Vision · Infrastructure Monitoring",
     title: "Structural Defect Analyzer",
     stack: [
@@ -378,6 +362,7 @@ export const quests: Quest[] = [
 
   {
     id: "resume-skill-matcher",
+    repoUrl: "https://github.com/Shreyabhat11/resume-matcher",
     domain: "NLP · Recommendation · Recruitment AI",
     title: "Resume Skill Matcher",
     stack: [
@@ -405,6 +390,7 @@ export const quests: Quest[] = [
 
   {
     id: "data-quality",
+    repoUrl: "https://github.com/Shreyabhat11/Data_quality_pipeline",
     domain: "Data Engineering · Monitoring · Analytics",
     title: "Data Quality & Pipeline Monitoring Dashboard",
     stack: [
@@ -425,81 +411,82 @@ export const quests: Quest[] = [
     outcome:
       "Built a monitoring workflow that makes data-quality degradation visible through measurable indicators and dashboard-based reporting.",
   },
+];
 
   // ─────────────────────────────────────────────
   // 11. ANALYTICS
   // ─────────────────────────────────────────────
 
-  {
-    id: "telecom-churn",
-    repoUrl: "https://github.com/Shreyabhat11/Telecom-customer-churn-EDA",
-    domain: "Telecommunications · ML · Business Analytics",
-    title: "Telecom Customer Churn Analysis",
-    stack: [
-      "SQL",
-      "Pandas",
-      "Gradient Boosting",
-      "Power BI",
-    ],
-    problem:
-      "Understanding which customers are likely to churn can help organizations focus retention efforts on higher-risk segments.",
-    solution: [
-      "Combined customer usage, billing, and service-interaction data for analysis.",
-      "Engineered behavioral and customer-value features.",
-      "Built a Gradient Boosting churn model.",
-      "Created a Power BI dashboard to surface churn trends and at-risk customer segments.",
-    ],
-    outcome:
-      "Identified stronger churn concentration among month-to-month customers and during earlier stages of the customer lifecycle.",
-  },
+//   {
+//     id: "telecom-churn",
+//     repoUrl: "https://github.com/Shreyabhat11/Telecom-customer-churn-EDA",
+//     domain: "Telecommunications · ML · Business Analytics",
+//     title: "Telecom Customer Churn Analysis",
+//     stack: [
+//       "SQL",
+//       "Pandas",
+//       "Gradient Boosting",
+//       "Power BI",
+//     ],
+//     problem:
+//       "Understanding which customers are likely to churn can help organizations focus retention efforts on higher-risk segments.",
+//     solution: [
+//       "Combined customer usage, billing, and service-interaction data for analysis.",
+//       "Engineered behavioral and customer-value features.",
+//       "Built a Gradient Boosting churn model.",
+//       "Created a Power BI dashboard to surface churn trends and at-risk customer segments.",
+//     ],
+//     outcome:
+//       "Identified stronger churn concentration among month-to-month customers and during earlier stages of the customer lifecycle.",
+//   },
 
-  {
-    id: "netflix-analysis",
-    domain: "Data Analytics · Business Intelligence",
-    title: "Netflix Data Analysis",
-    stack: [
-      "Python",
-      "Pandas",
-      "SQL",
-      "Matplotlib",
-      "Power BI",
-    ],
-    problem:
-      "Large entertainment catalogs contain patterns across genres, release years, countries, and content types that are difficult to interpret from raw records.",
-    solution: [
-      "Cleaned and explored Netflix catalog data.",
-      "Analyzed content distribution across genres, countries, and release periods.",
-      "Used visual analytics to identify trends and content patterns.",
-      "Presented findings through business-oriented visualizations.",
-    ],
-    outcome:
-      "Built an exploratory analytics project demonstrating data cleaning, SQL/Pandas analysis, visualization, and business insight generation.",
-  },
+//   {
+//     id: "netflix-analysis",
+//     domain: "Data Analytics · Business Intelligence",
+//     title: "Netflix Data Analysis",
+//     stack: [
+//       "Python",
+//       "Pandas",
+//       "SQL",
+//       "Matplotlib",
+//       "Power BI",
+//     ],
+//     problem:
+//       "Large entertainment catalogs contain patterns across genres, release years, countries, and content types that are difficult to interpret from raw records.",
+//     solution: [
+//       "Cleaned and explored Netflix catalog data.",
+//       "Analyzed content distribution across genres, countries, and release periods.",
+//       "Used visual analytics to identify trends and content patterns.",
+//       "Presented findings through business-oriented visualizations.",
+//     ],
+//     outcome:
+//       "Built an exploratory analytics project demonstrating data cleaning, SQL/Pandas analysis, visualization, and business insight generation.",
+//   },
 
-  // ─────────────────────────────────────────────
-  // 12. RECOMMENDATION SYSTEMS
-  // ─────────────────────────────────────────────
+//   // ─────────────────────────────────────────────
+//   // 12. RECOMMENDATION SYSTEMS
+//   // ─────────────────────────────────────────────
 
-  {
-    id: "movie-recommender",
-    repoUrl: "https://github.com/Shreyabhat11/Movie_recommendation",
-    domain: "Recommendation Systems · NLP",
-    title: "Movie Recommendation System",
-    stack: [
-      "TF-IDF",
-      "Cosine Similarity",
-      "SVD",
-      "Scikit-learn",
-    ],
-    problem:
-      "Large movie catalogs make it difficult for users to discover content that matches their interests.",
-    solution: [
-      "Built content-based recommendations using TF-IDF and cosine similarity.",
-      "Used metadata such as genre, director, cast, and plot information.",
-      "Implemented collaborative filtering with SVD matrix factorization.",
-      "Combined content and collaborative approaches into a hybrid recommendation strategy.",
-    ],
-    outcome:
-      "Demonstrated both content-based and collaborative recommendation techniques, including cold-start considerations.",
-  },
-];
+//   {
+//     id: "movie-recommender",
+//     repoUrl: "https://github.com/Shreyabhat11/Movie_recommendation",
+//     domain: "Recommendation Systems · NLP",
+//     title: "Movie Recommendation System",
+//     stack: [
+//       "TF-IDF",
+//       "Cosine Similarity",
+//       "SVD",
+//       "Scikit-learn",
+//     ],
+//     problem:
+//       "Large movie catalogs make it difficult for users to discover content that matches their interests.",
+//     solution: [
+//       "Built content-based recommendations using TF-IDF and cosine similarity.",
+//       "Used metadata such as genre, director, cast, and plot information.",
+//       "Implemented collaborative filtering with SVD matrix factorization.",
+//       "Combined content and collaborative approaches into a hybrid recommendation strategy.",
+//     ],
+//     outcome:
+//       "Demonstrated both content-based and collaborative recommendation techniques, including cold-start considerations.",
+//   },
+// ];
