@@ -44,7 +44,7 @@ export const featuredProjects: Quest[] = [
     outcome:
       "Reached ~87% hallucination-detection accuracy on the evaluation set used, which is enough to usefully flag low-confidence claims for human review rather than blocking on manual fact-checking of every response.",
     repoUrl: profile.github,
-    demoUrl: "https://ai-hallucination-detector-i5hsuecdb86cmcsoyr4x6c.streamlit.app/",
+    demoUrl: "https://frontend-coral-one-6cme2r1fvt.vercel.app/",
   },
   {
     id: "industrial-rag-anomaly",
